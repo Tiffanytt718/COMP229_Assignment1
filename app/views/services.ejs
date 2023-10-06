@@ -1,0 +1,70 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+<style>
+  .services-container{
+    display: flex;
+    width: 48%;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+  }
+  .service{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .service img{
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+  .service-description{
+    flex-grow: 1;
+  }
+  .service-description h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .service-description p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+</style>
+
+    <main>
+        <div class="service-container">
+            <div class="service">
+                <img src="img/flat-icon-banner-ux-design-vector-concept-35514760.webp" alt="UI/UX Design">
+                <div class="service-description">
+                    <h3>UI/UX Design</h3>
+                    <p>The key to developing a successful app is marrying the functionality your users 
+                        demand with an intuitive design and experience that make it as simple as possible to use. 
+                        UI/UX experts will design the perfect desktop, mobile, or web application to meet your specific 
+                        business requirements and industry needs. </p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="img/daf0ffceb3369f545c7c655956d831a5.jpg" alt="Database Management">
+                <div class="service-description">
+                    <h3>Database Design and Architecture</h3>
+                    <p>Building the foundation of your data storage with a focus on scalability, efficiency, and robustness.
+                        We work with you to understand your data needs, design database schemas that reflect business processes, and
+                        implement indexing and optimization techniques for swift data retrieval.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

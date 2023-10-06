@@ -1,0 +1,63 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+<style>
+  .projects-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .project{
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+  }
+  .project img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .project-description h3{
+    margin: 10px 0;
+    color: #333;
+  }
+  .project-description p{
+    font-size: 14px;
+    color: #666;
+  }
+  
+</style>
+
+    <main>
+        <div class="projects-container">
+            <div class="project">
+                <img src="img/pexels-kevin-ku-577585.jpg" alt="Web Development Project">
+                <div class="project-description">
+                    <h3>Web Development Project</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-pixabay-147413.jpg" alt="Mobile Application Project">
+                <div class="project-description">
+                    <h3>Mobile Application Project</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-realtoughcandycom-11035547.jpg" alt="Open Source Project">
+                <div class="project-description">
+                    <h3>Open Source Project</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

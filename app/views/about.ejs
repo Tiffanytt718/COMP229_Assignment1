@@ -1,0 +1,105 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<style>
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f7f7f7;
+    }
+    .about-me img{
+        border-radius: 70%;
+        width: 200px;
+        height: 300px;
+    }
+    .high_title{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    .hight_subtitle{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .center_content{
+        max-width: 60%;
+        margin: 0 20px;
+    }
+    .center_content p {
+        margin-bottom: 20px;
+    }
+    .center_content img {
+        width: 80%;
+        display: block;
+        margin: 20px aoto;
+    }
+    .resume{
+        max-width: 30%;
+        margin: 0 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    .resume h2 {
+        margin-top: 0;
+    }
+    .resume a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: darkcyan;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    .resume a:hover {
+        background-color: rgba(170, 0, 255, 0.223);
+    }
+
+</style>
+
+    <main>
+        <div class="about-me">
+          <img src="img/b430f2008e588a56c5a34adc4111d581.JPG" alt="Ting">
+          <h1 class="high_title">Ting Ting Zeng</h1>
+          <p class="high_subtitle">About Me</p>
+        </div>
+        <div class="content">
+          <article class="center_content">
+              <p id="information">
+                  Hello, my name is Ting Ting Zeng, you also can call me Tiffany.<br>
+                  I came from China, now living in Toronto.<br>
+                  Currently, this is my 3rd senmester in Centennial College, at the Software Engineering Technician program.<br>
+                  I have a dog, his name is Cookie, he's 8-year-old boy.<br>
+                  <img src="img/847ffd1352bb5c828959a10ab3f369ea.JPG" alt="Cookie">
+              </p>
+              <hr>
+              <p>
+                  My Hobbies:
+                  <ul>
+                      <li>Hiking</li>
+                      <li>Travelling</li>
+                      <li>Cooking</li>
+                  </ul>
+              </p>
+          </article>
+          <div class="resume">
+              <h2>My Resume</h2>
+              <a href="img/TingTing resume.pdf">Click here to download the PDF file.</a>
+          </div>
+        </div>
+        
+      </main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

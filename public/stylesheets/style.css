@@ -1,0 +1,194 @@
+/* Ting Ting Zeng 301309144 */
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  .high{
+    height: 400px;
+    width: 100%;
+    background-color: azure;
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+    font-size: 40px;
+    background-image: url('img/background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  .header{
+    background: #000;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+  }
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+  footer{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .about-me img{
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  .high_title{
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .high_subtitle{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+  }
+  .content{
+    margin-top: 30px;
+  }
+  .center_content{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  #information{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .resume{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .resume a{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 16px;
+    border: 1px solid #0066cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .resume a:hover{
+    background-color: #0066cc;
+    color: #fff;
+  }
+  
+  .projects-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .project{
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+  }
+  .project img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .project-description h3{
+    margin: 10px 0;
+    color: #333;
+  }
+  .project-description p{
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  
+  .services-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .service{
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+  }
+  .service img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .service-description h3{
+    margin: 10px 0;
+    color: #333;
+  }
+  .service-description p{
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .contact-form{
+    width: 70%;
+    max-width: 500px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  .form-group{
+    margin-bottom: 15px;
+  }
+  .form-group label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  .form-group button:hover{
+    background-color: #0056b3;
+  }
+  .form-group textarea{
+    resize: vertical;
+  }
+  
